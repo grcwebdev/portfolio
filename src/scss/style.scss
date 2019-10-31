@@ -1,2 +1,6 @@
-@import "./vendor/bootstrap.scss";
-@import './app/main.scss';
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400,600&display=swap');
+@import './app/reset.scss';
+@import './app/header.scss';
+@import './app/about-me.scss';
+@import './app/skills.scss';
+@import './app/portfolio.scss';

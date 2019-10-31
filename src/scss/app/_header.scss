@@ -1,0 +1,18 @@
+header {
+    background: #646362;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 7vw;
+    a#home {
+        font-weight: 600;
+        text-decoration: none;
+        color: #fff;
+    }
+    #menu-btn {
+        font-weight: 300;
+    }
+}

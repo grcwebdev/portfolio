@@ -1,0 +1,43 @@
+section#skills {
+    background: #646362;
+    color: #fff;
+    padding: 20px;
+    h3.section-title {
+        font-family: 'Bitter', serif;
+        font-size: 7vw;
+        text-align: right;
+        margin-bottom: 20px;
+    }
+    #skills-grid {
+        .skill-box {
+            background: #fff;
+            color: #646362;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            padding: 10px;
+            display: flex;
+            .skill-icon {
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i.fas {
+                    font-size: 7vw;
+                }
+            }
+            .skill-text {
+                width: 70%;
+                h4.skill-title {
+                    font-family: 'Open Sans', sans-serif;
+                    margin-bottom: 10px;
+                    font-size: 5vw;
+                }
+                p.skill-description {
+                    font-family: 'Open Sans', sans-serif;
+                    line-height: 1.5;
+                    font-size: 3vw;
+                }
+            }
+        }
+    }
+}

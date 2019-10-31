@@ -1,0 +1,47 @@
+section#portfolio {
+    background: #fff;
+    color: #646362;
+    padding: 20px;
+    h3.section-title {
+        font-family: 'Bitter', serif;
+        font-size: 7vw;
+        margin-bottom: 10px;
+    }
+    .filter-row {
+        margin: 10px 0;
+        margin-bottom: 20px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 3vw;
+        font-weight: 400;
+        .filter {
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid #646362;
+            &.active {
+                background: #646362;
+                color: #fff;
+            }
+        }
+    }
+    #portfolio-grid {
+        .portfolio-box {
+            margin-bottom: 10px;
+            padding: 20px;
+            background: blue;
+            .hover-wrapper {
+                background: pink;
+                display: none;
+            }
+            .image-wrapper {
+                width: 100%;
+                height: 100%;
+                background: url('https://www.drewgarcia.dev/img/project_images/transaction-email-preview.png');
+                background: red;
+            }
+        }
+    }
+
+}
