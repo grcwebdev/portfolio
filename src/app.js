@@ -8,6 +8,9 @@ import './scss/style.scss';
 // Page Load Animation
 window.onload = function() {
     document.getElementById('about-me-h3').classList.add('load');
+    setTimeout(function() {
+        document.getElementById('about-me-p').classList.add('load');
+    },1000);
 }
 
 // Mobile Nav Sticky
