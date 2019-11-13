@@ -41,8 +41,36 @@ section#portfolio {
                 position: relative;
                 width: 100%;
                 height: 100%;
-                background-size: cover;
-                background-position: center center;
+                &#subway {
+                    background: url('../images/transaction-email-preview.png');
+                    background-size: cover;
+                    background-position: center center;
+                }
+                &#hyatt {
+                    background: url('../images/promotional-email-preview.png');
+                    background-size: cover;
+                    background-position: center center;
+                }
+                &#tmobile {
+                    background: url('../images/newsletter-email-preview.png');
+                    background-size: cover;
+                    background-position: center center;
+                }
+                &#drone {
+                    background: url('../images/drone-landing-preview.png');
+                    background-size: cover;
+                    background-position: center center;
+                }
+                &#portfolio-site {
+                    background: url('../images/portfolio-landing-preview.png');
+                    background-size: cover;
+                    background-position: center center;
+                }
+                &#sneaker-searcher {
+                    background: url('../images/portfolio-landing-preview.png');
+                    background-size: cover;
+                    background-position: center center;
+                }
                 &:hover {
                     .hover-wrapper {
                         cursor: pointer;

@@ -78,6 +78,10 @@ section#about-me {
                         font-size: 1vw;
                         margin: 0 30px;
                         text-transform: uppercase;
+                        transition: font-size .3s ease-in-out;
+                        &:hover {
+                            font-size: 1.1vw;
+                        }
                     }
                 }
             }
