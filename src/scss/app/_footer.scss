@@ -1,0 +1,27 @@
+footer {
+    background: #9e9e9e;
+    padding: 5.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+}
+
+@media only screen and (min-width: 720px) {
+    footer {
+        padding: 7.5%;
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    footer {
+        padding: 20px;
+        font-size: 1.25vw;
+    }
+}

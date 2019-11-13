@@ -8,160 +8,196 @@
     <title>Andrew Garcia | Web Developer</title>
 </head>
 <body>
-    <header>
-        <a href="#" id="home">Andrew Garcia</a>
-        <div id="menu-btn">X</div>
-    </header>
-    <section id="about-me">
-        <h3 class="section-title">About Me</h3>
-        <p class="about-me-txt">
-            An ambitious developer and passionate learner who is comfortable speaking to clients as well as fellow developers. Ability to create responsive websites using HTML, CSS, and Javascript. Open to relocation, remote work, contact work, and new technology stacks.
-        </p>
-    </section>
-    <section id="skills">
-        <h3 class="section-title">Skills</h3>
-        <div id="skills-grid">
-            <div class="skill-box">
-                <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
-                <div class="skill-text">
-                    <h4 class="skill-title">Web Development</h4>
-                    <p class="skill-description">Able to create responsive websites using a mobile first approach from design assets and mockups quickly and efficiently using HTML, CSS, and Javascript.</p>
-                </div>
-            </div>
-            <div class="skill-box">
-                <div class="skill-icon"><i class="fas fa-paper-plane"></i></div>
-                <div class="skill-text">
-                    <h4 class="skill-title">HTML Emails</h4>
-                    <p class="skill-description">Able to create responsive HTML Emails from scratch or by using a framework such as Zurb Foundation for Emails.</p>
-                </div>
-            </div>
-            <div class="skill-box">
-                <div class="skill-icon"><i class="fas fa-code"></i></div>
-                <div class="skill-text">
-                    <h4 class="skill-title">AJAX</h4>
-                    <p class="skill-description">Able to make HTTP requests and retrieve data from an API to the page without the need to reload. Able to use vanilla Javascript or jQuery to achieve this.</p>
-                </div>
-            </div>
-            <div class="skill-box">
-                <div class="skill-icon"><i class="fas fa-bullhorn"></i></div>
-                <div class="skill-text">
-                    <h4 class="skill-title">Communication</h4>
-                    <p class="skill-description">Able to communicate ideas and concepts with technical and non-technical backgrounds.</p>
-                </div>
-            </div>
+    <div id="navbar">
+        <a href="/" id="home">Andrew Garcia</a>
+        <div id="menu-btn">
+            <i id="menu-icon" class="fas fa-bars" onclick="mobileMenu()"></i>
         </div>
-    </section>
-    <section id="portfolio">
-        <h3 class="section-title">Portfolio</h3>
-        <div class="filter-row">
-            <div class="filter" id="email-filter">Emails</div>
-            <div class="filter" id="landing-filter">Landing Pages</div>
-            <div class="filter" id="web-filter">Websites</div>
+        <div id="links">
+            <a href="#about-me" onclick="mobileMenu()">About Me</a>
+            <a href="#portfolio" onclick="mobileMenu()">Portfolio</a>
+            <a href="#contact" onclick="mobileMenu()">Contact Me</a>
         </div>
-        <div id="portfolio-grid">
-            <div class="portfolio-box">
-                <div class="hover-wrapper">
-                    <div class="site">
-                        <a href="#">+</a>
+    </div>
+    <div class="content">
+        <section id="about-me">
+            <div class="container">
+                <div class="desktop-nav">
+                    <a href="/">Andrew Garcia</a>
+                    <div class="links">
+                        <a href="#about-me">Portfolio</a>
+                        <a href="#about-me">Contact Me</a>
                     </div>
-                    <div class="buttons">
-                        <a href="#" class="live-btn">Demo</a>
-                        <a href="#" class="code-btn">Code</a>
-                    </div>
-                </div>
-                <div class="image-wrapper">
                 </div>
             </div>
-            <div class="portfolio-box">
-                <div class="hover-wrapper">
-                    <div class="site">
-                        <a href="#">+</a>
+            <div class="second-container">
+                <h3 id="about-me-h3">About Me</h3>
+                <p id="about-me-p">
+                    I am an ambitious developer and passionate learner who is comfortable speaking to clients as well as fellow developers. I have the ability to create responsive websites using HTML, CSS, and Javascript. I am open to relocation, remote work, contract work, and new technology stacks.
+                </p>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h3 class="section-title">Skills</h3>
+                <div id="skills-grid">
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="skill-text">
+                            <h4 class="skill-title">Web Development</h4>
+                            <p class="skill-description">Able to create responsive websites using a mobile first approach from design assets and mockups quickly and efficiently using HTML, CSS, and Javascript.</p>
+                        </div>
                     </div>
-                    <div class="buttons">
-                        <a href="#" class="live-btn">Demo</a>
-                        <a href="#" class="code-btn">Code</a>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-paper-plane"></i></div>
+                        <div class="skill-text">
+                            <h4 class="skill-title">HTML Emails</h4>
+                            <p class="skill-description">Able to create responsive HTML Emails from scratch or by using a framework such as Zurb Foundation for Emails.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="image-wrapper">
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <div class="skill-text">
+                            <h4 class="skill-title">AJAX</h4>
+                            <p class="skill-description">Able to make HTTP requests and retrieve data from an API to the page without the need to reload. Able to use vanilla Javascript or jQuery to achieve this.</p>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fas fa-bullhorn"></i></div>
+                        <div class="skill-text">
+                            <h4 class="skill-title">Communication</h4>
+                            <p class="skill-description">Able to communicate ideas and concepts with technical and non-technical backgrounds.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio-box">
-                <div class="hover-wrapper">
-                    <div class="site">
-                        <a href="#">+</a>
-                    </div>
-                    <div class="buttons">
-                        <a href="#" class="live-btn">Demo</a>
-                        <a href="#" class="code-btn">Code</a>
-                    </div>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h3 class="section-title">Portfolio</h3>
+                <div class="filter-row">
+                    <div class="filter" id="email-filter">Email</div>
+                    <div class="filter" id="landing-filter">Landing Page</div>
+                    <div class="filter" id="javascript-filter">Javascript</div>
                 </div>
-                <div class="image-wrapper">
+                <div class="wrapper">
+                    <div id="portfolio-grid">
+                        <div class="portfolio-box email">
+                            <div class="image-wrapper" style="background: url('https://www.drewgarcia.dev/img/project_images/transaction-email-preview.png'); background-size:cover; background-position: center center;">
+                                <div class="hover-wrapper">
+                                    <div class="space">
+                                        <h4>Subway Transactional Email</h4>
+                                    </div>
+                                    <div class="buttons">
+                                        <a target="_blank" href="https://grc-transaction-email.netlify.com/" class="live-btn">Demo</a>
+                                        <a target="_blank" href="https://github.com/grcwebdev/transaction-email" class="code-btn">Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-box email">
+                            <div class="image-wrapper" style="background: url('https://www.drewgarcia.dev/img/project_images/transaction-email-preview.png'); background-size:cover; background-position: center center;">
+                                <div class="hover-wrapper">
+                                    <div class="space">
+                                        <h4>Hyatt Promotional Email</h4>
+                                    </div>
+                                    <div class="buttons">
+                                        <a target="_blank" href="https://grc-promotional-email.netlify.com/" class="live-btn">Demo</a>
+                                        <a target="_blank" href="https://github.com/grcwebdev/promotional-email" class="code-btn">Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-box email">
+                            <div class="image-wrapper" style="background: url('https://www.drewgarcia.dev/img/project_images/transaction-email-preview.png'); background-size:cover; background-position: center center;">
+                                <div class="hover-wrapper">
+                                    <div class="space">
+                                        <h4>T-Mobile Newsletter Email</h4>
+                                    </div>
+                                    <div class="buttons">
+                                        <a target="_blank" href="https://grc-newsletter-email.netlify.com/" class="live-btn">Demo</a>
+                                        <a target="_blank" href="https://github.com/grc29/newsletter-email" class="code-btn">Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-box landing">
+                            <div class="image-wrapper" style="background: url('https://www.drewgarcia.dev/img/project_images/transaction-email-preview.png'); background-size:cover; background-position: center center;">
+                                <div class="hover-wrapper">
+                                    <div class="space">
+                                        <h4>Drone Rental Landing</h4>
+                                    </div>
+                                    <div class="buttons">
+                                        <a target="_blank" href="https://grc-drone-zone.netlify.com/" class="live-btn">Demo</a>
+                                        <a target="_blank" href="https://github.com/grcwebdev/drone-zone" class="code-btn">Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-box landing">
+                            <div class="image-wrapper" style="background: url('https://www.drewgarcia.dev/img/project_images/transaction-email-preview.png'); background-size:cover; background-position: center center;">
+                                <div class="hover-wrapper">
+                                    <div class="space">
+                                        <h4>Personal Portfolio</h4>
+                                    </div>
+                                    <div class="buttons">
+                                        <a target="_blank" href="drewgarcia.dev" class="live-btn">Demo</a>
+                                        <a target="_blank" href="https://github.com/grcwebdev/portfolio" class="code-btn">Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-box javascript">
+                            <div class="image-wrapper" style="background: url('https://www.drewgarcia.dev/img/project_images/transaction-email-preview.png'); background-size:cover; background-position: center center;">
+                                <div class="hover-wrapper">
+                                    <div class="space">
+                                        <h4>StockX Searcher</h4>
+                                    </div>
+                                    <div class="buttons">
+                                        <a target="_blank" href="drewgarcia.dev" class="live-btn">Demo</a>
+                                        <a target="_blank" href="https://github.com/grcwebdev/portfolio" class="code-btn">Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio-box">
-                <div class="hover-wrapper">
-                    <div class="site">
-                        <a href="#">+</a>
-                    </div>
-                    <div class="buttons">
-                        <a href="#" class="live-btn">Demo</a>
-                        <a href="#" class="code-btn">Code</a>
-                    </div>
-                </div>
-                <div class="image-wrapper">
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <div class="hover-wrapper">
-                    <div class="site">
-                        <a href="#">+</a>
-                    </div>
-                    <div class="buttons">
-                        <a href="#" class="live-btn">Demo</a>
-                        <a href="#" class="code-btn">Code</a>
-                    </div>
-                </div>
-                <div class="image-wrapper">
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h3 class="section-title">Contact Me</h3>
+                <div class="social-row">
+                    <a target="_blank" href="mailto:grcwebdev@gmail.com">
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/grcwebdev/">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/feed/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
                 </div>
             </div>
-            <div class="portfolio-box">
-                <div class="hover-wrapper">
-                    <div class="site">
-                        <a href="#">+</a>
-                    </div>
-                    <div class="buttons">
-                        <a href="#" class="live-btn">Demo</a>
-                        <a href="#" class="code-btn">Code</a>
-                    </div>
-                </div>
-                <div class="image-wrapper">
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <div class="hover-wrapper">
-                    <div class="site">
-                        <a href="#">+</a>
-                    </div>
-                    <div class="buttons">
-                        <a href="#" class="live-btn">Demo</a>
-                        <a href="#" class="code-btn">Code</a>
-                    </div>
-                </div>
-                <div class="image-wrapper">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <h3 class="section-title">Contact Me</h3>
-        <a href="#">Email Me</a>
-        <div class="social-row">
-            <div class="github">Github</div>
-            <div class="linkedin">Linkedin</div>
-        </div>
-    </section>
-    <footer>
-        Andrew Garcia &copy; 2019
-    </footer>
+        </section>
+        <footer>
+            Andrew Garcia | 201-639-4762 | grcwebdev@gmail.com
+        </footer>
+    </div>
+    <script>
+        function mobileMenu() {
+            let links = document.getElementById('links');
+            let icon = document.getElementById('menu-icon');
+            if(links.classList.contains('active')) {
+                links.classList.remove('active');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            } else {
+                links.classList.add('active');
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            }
+        }
+    </script>
 </body>
 </html>

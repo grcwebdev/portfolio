@@ -1,0 +1,86 @@
+section#contact {
+    background: #fff;
+    color: #9e9e9e;
+    padding: 8% 5.333%;
+    h3.section-title {
+        font-family: 'Bitter', serif;
+        font-size: 8vw;
+        margin-bottom: 11.94%;
+        text-align: right;
+    }
+    .social-row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+            color: #fff;
+            padding: 4.478%;
+            border-radius: 10px;
+            margin: 0 auto;
+            background: #fd4c46;
+            margin-bottom: 2.985%;
+            i {
+                font-size: 8vw;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    section#contact {
+        padding: 10% 5.333%;
+        h3.section-title {
+            margin-bottom: 12%;
+        }
+        .social-row {
+            a {
+                padding: 6%;
+                margin-bottom: 4%;
+                i {
+                    font-size: 7vw;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    section#contact {
+        padding: 0;
+        .container {
+            max-width: 1440px;
+            width: 81.25%;
+            margin: 0 auto;
+            padding: 60px 0;
+            h3.section-title {
+                font-size: 3vw;
+                margin-bottom: 80px;
+                padding-bottom: 50px;
+                border-bottom: 5px solid #9e9e9e;
+                display: inline-block;
+                text-align: right;
+            }
+            .social-row {
+                a {
+                    width: 25%;
+                    padding: 25px;
+                    margin: 0;
+                    margin-bottom: 10px;
+                    &:hover {
+                        background: #00bd9b;
+                    }
+                    i {
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
+    }
+}
