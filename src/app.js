@@ -1,9 +1,9 @@
 import './scss/style.scss';
 
 // Make reload page go to top
-// window.onbeforeunload = function () {
-//     window.scrollTo(0);
-// }
+window.onbeforeunload = function () {
+     window.scrollTo(0,0);
+}
 
 // Page Load Animation
 window.onload = function() {
